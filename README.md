@@ -8,7 +8,7 @@ The project aims to explore how audiences react to viral content and demonstrate
 
 Dataset Name: MrBeast YouTube Comment Sentiment Analysis
 Source: Publicly available comments from selected videos on MrBeast’s YouTube channel (anonymized).
-Format: CSV / Parquet (depending on version)
+Format: CSV
 
 🔑 Key Features
 
@@ -32,5 +32,3 @@ Language: Python
 
 Libraries: Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, NLTK / SpaCy
 Conducting exploratory data analysis (EDA) of audience engagement and reaction trends
-
-Educational or research projects in machine learning, data science, or computational linguistics
