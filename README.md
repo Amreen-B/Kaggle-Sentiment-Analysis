@@ -1,34 +1,56 @@
-🎬 MrBeast YouTube Comment Sentiment Analysis
+# 🤖 Sentiment Intelligence Platform
 
-This repository contains an anonymized dataset and accompanying resources for analyzing viewer sentiment on MrBeast’s YouTube videos using Natural Language Processing (NLP) and Machine Learning techniques.
+A production-ready NLP sentiment analysis platform built using Transformers, FastAPI, Streamlit, and Docker.
 
-The project aims to explore how audiences react to viral content and demonstrate end-to-end sentiment analysis — from data cleaning and exploratory analysis to model training and visualization.
+This project transforms a basic NLP notebook into a full-stack AI application with:
+- real-time sentiment inference
+- batch CSV processing
+- analytics dashboard
+- containerized deployment
+- modular backend architecture
 
-📊 About the Dataset
+---
 
-Dataset Name: MrBeast YouTube Comment Sentiment Analysis
-Source: Publicly available comments from selected videos on MrBeast’s YouTube channel (anonymized).
-Format: CSV
+# 🚀 Features
 
-🔑 Key Features
+## ✅ Real-Time Sentiment Analysis
+Analyze text sentiment instantly using a transformer-based NLP model.
 
-Text Data: Cleaned comment text (no usernames or personal identifiers)
+## ✅ Batch CSV Processing
+Upload CSV datasets and perform large-scale sentiment inference.
 
-Sentiment Labels: Positive / Neutral / Negative
+## ✅ Interactive Analytics Dashboard
+Visualize sentiment distribution using:
+- donut charts
+- KPI metrics
+- confidence scores
 
-Anonymization: Usernames, profile links, and unique identifiers were removed or hashed to protect user privacy
+## ✅ Transformer-Based NLP
+Powered by HuggingFace Transformers and DistilBERT.
 
-🧠 Potential Use Cases
+## ✅ FastAPI Backend
+REST API architecture for scalable inference serving.
 
-Training and evaluating sentiment analysis or text classification models
+## ✅ Streamlit Frontend
+Interactive AI dashboard for real-time user interaction.
 
-Benchmarking NLP algorithms on real-world social media data
+## ✅ Dockerized Deployment
+Containerized multi-service architecture using Docker Compose.
 
+---
 
+# 🏗️ System Architecture
 
-⚙️ Technologies Used
+```text
+User
+ │
+ ▼
+Streamlit Frontend
+ │
+ ▼
+FastAPI Backend
+ │
+ ▼
+Transformer NLP Model (DistilBERT)
 
-Language: Python
-
-Libraries: Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, NLTK / SpaCy
-Conducting exploratory data analysis (EDA) of audience engagement and reaction trends
+Author: Amreen
